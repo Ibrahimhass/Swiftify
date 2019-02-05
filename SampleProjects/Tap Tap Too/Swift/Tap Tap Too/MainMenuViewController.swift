@@ -10,7 +10,7 @@ import UIKit
 
 class MainMenuViewController: UIViewController, UIViewControllerProtocols {
     @IBOutlet private weak var playButton: UIButton!
-    @IBOutlet private weak var matchesButton: UIButton!
+//    @IBOutlet private weak var matchesButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,12 +20,12 @@ class MainMenuViewController: UIViewController, UIViewControllerProtocols {
             playButton.tintColor = aColor
         }
         playButton.layer.cornerRadius = 8.0
-        matchesButton.layer.borderWidth = 2.0
-        matchesButton.layer.borderColor = UIColor.violet()?.cgColor
-        if let aColor = UIColor.violet() {
-            matchesButton.tintColor = aColor
-        }
-        matchesButton.layer.cornerRadius = 8.0
+//        matchesButton.layer.borderWidth = 2.0
+//        matchesButton.layer.borderColor = UIColor.violet()?.cgColor
+//        if let aColor = UIColor.violet() {
+//            matchesButton.tintColor = aColor
+//        }
+//        matchesButton.layer.cornerRadius = 8.0
         // Do any additional setup after loading the view.
     }
 
